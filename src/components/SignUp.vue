@@ -8,6 +8,7 @@
         <input type="password" v-model="password" placeholder="Enter Password" />
         <button v-on:click="signUp">Sign Up</button>
     </div>
+    
 </template>
 
 <script>
@@ -29,11 +30,13 @@ export default {
                 email:this.email,
                 password:this.password
             });
+
             console.warn(result)
             if(result.status==201){
                 alert('Sign Up Done')
             }
             localStorage.setItem("user-info",JSON.stringify(result.data))
+            this.$router.push({name:'Home'})
         }
     }
 }

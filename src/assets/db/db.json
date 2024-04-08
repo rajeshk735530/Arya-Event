@@ -16,6 +16,24 @@
       "name": "Bruce",
       "email": "bruce1234@gmail.com",
       "password": "bruce234"
+    },
+    {
+      "id": "98e6",
+      "name": "Ashish Bindra",
+      "email": "ashish123@gmail.come",
+      "password": "ashish1234"
+    },
+    {
+      "id": "12ab",
+      "name": "Khushboo bind",
+      "email": "khushboo123@gmail.com",
+      "password": "asd12344"
+    },
+    {
+      "id": "e6f6",
+      "name": "Khushboo bind",
+      "email": "khushboo123@gmail.com",
+      "password": "asd12344"
     }
   ]
 }
