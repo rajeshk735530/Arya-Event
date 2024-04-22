@@ -1,10 +1,14 @@
 <template>
-  <router-view />
+  <Home />
 </template>
 
 <script>
+import Home from './components/Home.vue'
 export default {
   name: 'App',
+  components: {
+    Home
+  }
 }
 </script>
 
@@ -20,32 +24,5 @@ export default {
 body {
   padding: 0;
   margin: 0;
-}
-
-.logo {
-  width: 100px;
-}
-
-.register input,
-.login input {
-  width: 300px;
-  height: 40px;
-  padding-left: 20px;
-  display: block;
-  margin-bottom: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  border: 1px solid skyblue;
-}
-
-.register button,
-.login button {
-  width: 320px;
-  height: 40px;
-  border: 1px solid skyblue;
-  background: skyblue;
-  columns: #fff;
-  cursor: pointer;
-
 }
 </style>
