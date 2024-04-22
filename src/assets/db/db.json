@@ -1,39 +1,28 @@
 {
   "users": [
     {
-      "name": "Rajesh",
-      "email": "rajesh1234@gmail.com",
+      "id": "1",
+      "name": "Babu",
+      "email": "babu1234@gmail.com",
       "password": "1234@asd"
     },
     {
-      "id": "cd42",
-      "name": "Himanshu",
-      "email": "manshu@1234@gmail.com",
-      "password": "asdf@123"
+      "id": "2",
+      "name": "Peter",
+      "email": "peter6767@gmail.com",
+      "password": "124@asd"
     },
     {
-      "id": "d45a",
-      "name": "Bruce",
-      "email": "bruce1234@gmail.com",
-      "password": "bruce234"
+      "id": "dccb",
+      "name": "",
+      "email": "",
+      "password": ""
     },
     {
-      "id": "98e6",
-      "name": "Ashish Bindra",
-      "email": "ashish123@gmail.come",
-      "password": "ashish1234"
-    },
-    {
-      "id": "12ab",
-      "name": "Khushboo bind",
-      "email": "khushboo123@gmail.com",
-      "password": "asd12344"
-    },
-    {
-      "id": "e6f6",
-      "name": "Khushboo bind",
-      "email": "khushboo123@gmail.com",
-      "password": "asd12344"
+      "id": "3",
+      "name": "Ashish bind",
+      "email": "bind6767@gmail.com",
+      "password": "124@asd"
     }
   ]
 }
